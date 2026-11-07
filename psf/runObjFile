@@ -1,12 +1,12 @@
 HEADER
 "PSFversion" "1.00"
 "Run Generator" "drlRun rev. 1.0"
-"Run Time Stamp" "Jun 26 17:10:22 2026"
+"Run Time Stamp" "Jun 25 15:43:33 2026"
 "simulator" "spectre"
-"date" "Jun 26 17:10:22 2026"
+"date" "Jun 25 15:43:33 2026"
  "externalSweepVariableCount" 0
-"#maeTestName" "Thesis_Tapeout_RO_3_stage_MUX_tb_1"
-"#maeHistoryName" "ExplorerRun.0"
+"#maeTestName" "Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1"
+"#maeHistoryName" "Interactive.0"
 "#maeCorner" "nom"
  "#maeDesignPoint" 1
 "netlistDir" "../netlist"

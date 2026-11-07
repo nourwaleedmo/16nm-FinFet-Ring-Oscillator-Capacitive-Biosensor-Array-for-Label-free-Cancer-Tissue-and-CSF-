@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi
+HostName                       elc-cnd6
+ProcessIdentifier              654974
+ProcessCreationTime_UTC        1782389558
+ProcessCreationTime_Readable   Thu Jun 25 15:12:38 2026 EEST
+AppIdentifier                  /eda/cadence/2024-25/RHELx86/IC_23.10.070/tools.lnx86/dfII/bin/64bit/vds
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.30.16.1
+TimeEditLocked                 Thu Jun 25 15:12:38 2026 EEST
