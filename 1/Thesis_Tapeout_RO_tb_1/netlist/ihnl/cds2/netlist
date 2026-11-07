@@ -1,0 +1,46 @@
+    M3 (Cap1 Pre_Buffer VSS_G VSS) nmos_rf_ulvt_nw multi=1 cbflag=2 \
+        dinsaflag=0 lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 \
+        sa=531.00n sb=531.00n sc_b=1.099u sc_l=6.328u sc_r=1.752u \
+        sc_t=1.099u sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n \
+        sobw=5.3u wr=250.0n
+    M4 (Cap2 Cap1 VSS_G VSS) nmos_rf_ulvt_nw multi=1 cbflag=2 dinsaflag=0 \
+        lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 sa=531.00n \
+        sb=531.00n sc_b=1.099u sc_l=1.752u sc_r=1.752u sc_t=1.099u \
+        sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n sobw=724.00n \
+        wr=250.0n
+    M6 (Pre_Buffer Cap2 VSS_G VSS) nmos_rf_ulvt_nw multi=1 cbflag=2 \
+        dinsaflag=0 lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 \
+        sa=531.00n sb=531.00n sc_b=1.099u sc_l=1.752u sc_r=1.752u \
+        sc_t=1.099u sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n \
+        sobw=724.00n wr=250.0n
+    I14 (u_signal net2 VDD VDD VSS VSS) invter_digital
+    M1 (VSS_G u_signal VSS VSS) nch_ulvt_mac l=16.0n nfin=5 w=202.00n \
+        multi=1 nf=10 sd=74.0n sa=90n sb=90n ploda1=16.0n ploda2=0 \
+        ploda3=0 plodb1=16.0n plodb2=0 plodb3=0 nf_flag=1 smbt=1M smbb=1M \
+        dinsaflag=0 ppitch=0 spot=61.0n spob=61.0n spotl1=61.0n \
+        spobl1=61.0n spotl2=61.0n spobl2=61.0n spotr1=61.0n spobr1=61.0n \
+        spotr2=61.0n spobr2=61.0n
+    M0 (VDD_G net2 VDD VDD) pch_ulvt_mac l=16.0n nfin=5 w=202.00n multi=1 \
+        nf=10 sd=74.0n sa=90n sb=90n ploda1=16.0n ploda2=0 ploda3=0 \
+        plodb1=16.0n plodb2=0 plodb3=0 nf_flag=1 smbt=1M smbb=1M \
+        dinsaflag=0 ppitch=0 spot=61.0n spob=61.0n spotl1=61.0n \
+        spobl1=61.0n spotl2=61.0n spobl2=61.0n spotr1=61.0n spobr1=61.0n \
+        spotr2=61.0n spobr2=61.0n
+    I0 (Pre_Buffer OUT VDD VSS VDD VSS) BUFFD14BWP16P90
+    M7 (Pre_Buffer Cap2 VDD_G VDD) pmos_rf_ulvt_nw multi=1 cbflag=2 \
+        dinsaflag=0 lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 \
+        sa=531.00n sb=531.00n sc_b=1.099u sc_l=1.752u sc_r=1.752u \
+        sc_t=1.099u sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n \
+        sobw=724.00n wr=250.0n
+    M5 (Cap2 Cap1 VDD_G VDD) pmos_rf_ulvt_nw multi=1 cbflag=2 dinsaflag=0 \
+        lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 sa=531.00n \
+        sb=531.00n sc_b=1.099u sc_l=1.752u sc_r=1.752u sc_t=1.099u \
+        sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n sobw=724.00n \
+        wr=250.0n
+    M2 (Cap1 Pre_Buffer VDD_G VDD) pmos_rf_ulvt_nw multi=1 cbflag=2 \
+        dinsaflag=0 lr=240.0n nfin=6 ngcon=2 nr=4 ppitch=0 rcmflag=1 \
+        sa=531.00n sb=531.00n sc_b=1.099u sc_l=6.328u sc_r=1.752u \
+        sc_t=1.099u sd=118.00n sobe=724.00n sobn=806.00n sobs=806.00n \
+        sobw=5.3u wr=250.0n
+ends Ring_Oscillator_3stages_pin
+// End of subcircuit definition.

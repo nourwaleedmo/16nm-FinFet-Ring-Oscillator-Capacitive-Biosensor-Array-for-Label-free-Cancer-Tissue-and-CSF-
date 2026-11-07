@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AGE>
+ <EnvTemp unit="C">2.700e+01</EnvTemp>
+ <Age_specmod unit="NA">0</Age_specmod>
+ <Dagetime unit="yr">0.000e+00</Dagetime>
+ <SumDagetime unit="yr">0.000e+00</SumDagetime>
+ <TotalNumCoreDev>14</TotalNumCoreDev>
+ <DrawnCoreGateArea unit="um**2">1.521e+00</DrawnCoreGateArea>
+ <EffectiveCoreGateArea unit="um**2">2.633e+00</EffectiveCoreGateArea>
+ <TotalNumIODev>0</TotalNumIODev>
+ <DrawnIOGateArea unit="um**2">0.000e+00</DrawnIOGateArea>
+ <EffectiveIOGateArea unit="um**2">0.000e+00</EffectiveIOGateArea>
+ <Device ID="1">
+  <InstName>I0.M2</InstName>
+  <Model>I0.M2.pch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="2">
+  <InstName>I0.M5</InstName>
+  <Model>I0.M7.pch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="3">
+  <InstName>I0.M7</InstName>
+  <Model>I0.M7.pch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="4">
+  <InstName>I0.M6</InstName>
+  <Model>I0.M4.nch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="5">
+  <InstName>I0.M4</InstName>
+  <Model>I0.M4.nch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="6">
+  <InstName>I0.M3</InstName>
+  <Model>I0.M3.nch_ulvt_mac_rf.1</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="7">
+  <InstName>I0.M0</InstName>
+  <Model>pch_ulvt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="8">
+  <InstName>I0.I14.M2</InstName>
+  <Model>pch_ulvt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="9">
+  <InstName>I0.M1</InstName>
+  <Model>nch_ulvt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="10">
+  <InstName>I0.I14.M1</InstName>
+  <Model>nch_ulvt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="11">
+  <InstName>I0.I0.MM20_14_turbo_m14</InstName>
+  <Model>pch_svt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="12">
+  <InstName>I0.I0.MM21_5_turbo_m5</InstName>
+  <Model>pch_svt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="13">
+  <InstName>I0.I0.MM19_4_turbo_m5</InstName>
+  <Model>nch_svt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+ <Device ID="14">
+  <InstName>I0.I0.MM0_14_turbo_m14</InstName>
+  <Model>nch_svt_mac.10</Model>
+  <didsatHciBti unit="%">0.000e+00</didsatHciBti>
+  <didlinHciBti unit="%">0.000e+00</didlinHciBti>
+  <dvtlinHciBti unit="V">0.000e+00</dvtlinHciBti>
+  <didsatHci unit="%">0.000e+00</didsatHci>
+  <didlinHci unit="%">0.000e+00</didlinHci>
+  <dvtlinHci unit="V">0.000e+00</dvtlinHci>
+  <didsatBti unit="%">0.000e+00</didsatBti>
+  <didlinBti unit="%">0.000e+00</didlinBti>
+  <dvtlinBti unit="V">0.000e+00</dvtlinBti>
+  <lifetimeHciBti unit="yr">&gt;100</lifetimeHciBti>
+  <lifetimeHci unit="yr">&gt;100</lifetimeHci>
+  <lifetimeBti unit="yr">&gt;100</lifetimeBti>
+  <lifetime_item>didsat</lifetime_item>
+  <EOL_spec unit="%">10</EOL_spec>
+ </Device>
+</AGE>

@@ -1,0 +1,19 @@
+Cautious Operation Area checked:
+1.  Vgs*type <= Vgs_max
+2.  Vgd*type <= Vgd_max
+3.  |Vds*type| <= Vds_max
+4.  Vsg*type <= Vgsr_max
+5.  Vdg*type <= Vgdr_max
+6.  Vgb*type <= Vgb_max
+7.  Vbg*type <= Vgbr_max
+8.  Vbs*type <= Vbs_max
+9.  Vsb*type <= Vbsr_max
+10. Vbd*type <= Vbd_max
+11. Vdb*type <= Vbdr_max
+type=1 for NMOS, type=-1 for PMOS
+
+WARNING: coa_sorting_num is set to 1000. There may be more coa violations than the following table.
+To get a full list of instances, please use coa_sorting_num = -1.
+WARNING: When Vg< 0.2V, it's risky to apply high drain bias which be out of COA leading to gate oxide or junction breakdown.
+
+Rank	Instance	Voltage_in_COA	Model

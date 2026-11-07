@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"MM21_5n MM20_14n MM21_1n MM21_2n MM20_8n MM20_6n MM20_7n MM20_12n MM20_2n MM20_3n MM20_5n MM20_11n MM20_9n MM20_4n MM20_13n MM21_4n MM20_10n MM21_3n MM20_1n" "tsmcN16_pch_svt_mac_spectre"
+"MM0_14n MM0_10n MM0_7n MM0_5n MM0_8n MM19_4n MM0_3n MM0_1n MM0_9n MM0_13n MM19_5n MM0_6n MM19_3n MM19_2n MM0_2n MM0_4n MM19_1n MM0_11n MM0_12n" "tsmcN16_nch_svt_mac_spectre"
+"Iv" ":1v"
+"Zv" ":2v"
+"VDDv" ":3v"
+"VSSv" ":4v"
+"VPPv" ":5v"
+"VBBv" ":6v"

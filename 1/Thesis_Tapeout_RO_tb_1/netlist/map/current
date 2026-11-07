@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RO_tb"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_tb/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_tb_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "Thesis_Tapeout/RO_tb/schematic" "RO_tb" )
+( "Thesis_4/invter_digital/schematic" "invter_digital" )
+( "Thesis_Tapeout/Ring_Oscillator_3stages_pin/schematic" "Ring_Oscillator_3stages_pin" )
+( "tcbn16ffcllbwp16p90/BUFFD14BWP16P90/schematic" "BUFFD14BWP16P90" )
+ )
+( "Ring_Oscillator_3stages_pin" "ihnl/cds2/map" )
+( "BUFFD14BWP16P90" "ihnl/cds1/map" )
+( "invter_digital" "ihnl/cds0/map" )
+( "RO_tb" "ihnl/cds3/map" )
+ )

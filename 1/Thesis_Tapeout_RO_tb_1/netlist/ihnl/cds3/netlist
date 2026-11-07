@@ -1,0 +1,10 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: RO_tb
+// View name: schematic
+I0 (net3 net2 Out Pre_buffer net7 0 net5) Ring_Oscillator_3stages_pin
+V1 (net5 0) vsource dc=800.0m type=dc
+V0 (net7 0) vsource dc=800.0m type=dc
+C2 (Pre_buffer 0) capacitor c=5f
+C1 (net3 net2) capacitor c=100f
+C0 (Out 0) capacitor c=300f

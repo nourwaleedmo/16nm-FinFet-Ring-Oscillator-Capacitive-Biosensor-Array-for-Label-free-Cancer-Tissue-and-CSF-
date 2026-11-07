@@ -1,0 +1,1 @@
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/Pre_buffer" sigExpr "VT(\"/Pre_buffer\")") (nil fullName "/Out" sigExpr "VT(\"/Out\")")) plottableExpressions ((nil name nil expression frequency(VT("/Out")))))

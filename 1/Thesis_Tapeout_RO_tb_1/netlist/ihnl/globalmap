@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+tcbn16ffcllbwp16p90/BUFFD14BWP16P90/schematic BUFFD14BWP16P90
+Thesis_4/invter_digital/schematic invter_digital
+Thesis_Tapeout/RO_tb/schematic RO_tb
+Thesis_Tapeout/Ring_Oscillator_3stages_pin/schematic Ring_Oscillator_3stages_pin
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+temperature temperature
+$endparam

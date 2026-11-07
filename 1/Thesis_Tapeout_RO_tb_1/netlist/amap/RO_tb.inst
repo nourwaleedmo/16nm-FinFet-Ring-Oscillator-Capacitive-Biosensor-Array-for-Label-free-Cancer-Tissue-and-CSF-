@@ -1,0 +1,5 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "Ring_Oscillator_3stages_pin"
+"V1n V0n" "analogLib_vdc_spectre"
+"C2n C1n C0n" "analogLib_cap_spectre"

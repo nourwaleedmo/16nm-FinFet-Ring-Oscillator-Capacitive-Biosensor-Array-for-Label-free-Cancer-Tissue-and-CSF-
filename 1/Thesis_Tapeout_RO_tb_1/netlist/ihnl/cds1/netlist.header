@@ -1,0 +1,5 @@
+
+// Library name: tcbn16ffcllbwp16p90
+// Cell name: BUFFD14BWP16P90
+// View name: schematic
+subckt BUFFD14BWP16P90 I Z VDD VSS VPP VBB

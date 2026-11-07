@@ -1,0 +1,36 @@
+** TMI degradation and lifetime**
+
+** Note 1 : Please refer to release note for the temperature and vdd of degradation in this file.
+** Note 2 : The annotation * on the item of degradation means the degradation has been clamped. Please refer to release note for detail.
+** Note 3 : The annotation * on the item of lifetime means didsat enhances > 10.0 %.
+
+age_specmod  = 0
+dageTime     = 0 yr
+Sum dageTime = 0 yr
+
+Area sum of 14 Core devices: 
+Drawn_Core_gate_area_by_TMI     = 1.521e+00 um^2 
+Effective_Core_gate_area_by_TMI = 2.633e+00 um^2 
+
+Area sum of 0 IO devices: 
+Drawn_IO_gate_area_by_TMI       = 0.000e+00 um^2 
+Effective_IO_gate_area_by_TMI   = 0.000e+00 um^2 
+
+
+
+                                   VV
+Rank      Instance                 didsat(HCI+BTI,%)  didlin(HCI+BTI,%)  dvtlin(HCI+BTI,V)  didsat(HCI,%)      didlin(HCI,%)      dvtlin(HCI,V)      didsat(BTI,%)      didlin(BTI,%)      dvtlin(BTI,V)      lifetime(HCI+BTI,yr)  lifetime(HCI,yr)  lifetime(BTI,yr)  lifetime_item  EOL_spec  Model
+1         I0.M7                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M7.pch_ulvt_mac_rf.1
+2         I0.M2                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M2.pch_ulvt_mac_rf.1
+3         I0.M0                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      pch_ulvt_mac.10
+4         I0.I0.MM20_14_turbo_m14  0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      pch_svt_mac.10
+5         I0.I0.MM21_5_turbo_m5    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      pch_svt_mac.10
+6         I0.M5                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M7.pch_ulvt_mac_rf.1
+7         I0.I0.MM0_14_turbo_m14   0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      nch_svt_mac.10
+8         I0.I14.M2                0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      pch_ulvt_mac.10
+9         I0.M6                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M4.nch_ulvt_mac_rf.1
+10        I0.I0.MM19_4_turbo_m5    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      nch_svt_mac.10
+11        I0.M1                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      nch_ulvt_mac.10
+12        I0.I14.M1                0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      nch_ulvt_mac.10
+13        I0.M4                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M4.nch_ulvt_mac_rf.1
+14        I0.M3                    0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          0.000e+00          >100                  >100              >100              didsat         10%      I0.M3.nch_ulvt_mac_rf.1

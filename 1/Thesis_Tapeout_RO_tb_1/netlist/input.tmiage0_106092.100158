@@ -1,0 +1,10 @@
+age_data_file	1	/eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_tb/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_tb_1/netlist/input.tmiage0_106092.100158.dat
+age_model_file	1	/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/tmiAgingParam.txt
+age_mapping_file	1	/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/tmiMapping.txt
+sorting_item	0
+sorting_phys	0
+sorting_num	100
+lifetime_item	0
+lifetime_degradation_value	10.000000
+printxml	1
+asciiage	0
