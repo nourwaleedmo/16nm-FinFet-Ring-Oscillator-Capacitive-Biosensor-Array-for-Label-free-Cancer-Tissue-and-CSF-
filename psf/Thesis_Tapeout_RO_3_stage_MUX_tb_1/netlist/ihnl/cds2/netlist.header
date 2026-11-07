@@ -1,0 +1,5 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: Ring_Oscillator_3stages
+// View name: schematic
+subckt Ring_Oscillator_3stages Cap1 Cap2 OUT VDD VSS u_signal

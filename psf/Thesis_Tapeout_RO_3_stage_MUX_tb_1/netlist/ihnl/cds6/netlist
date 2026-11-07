@@ -1,0 +1,9 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: RO_3_stage_MUX_tb
+// View name: schematic
+I0 (net4 net3 MUX_out RO_out net2 net7 0 net1) RO_3_stage_MUX
+V2 (net2 0) vsource dc=0 type=dc
+V1 (net1 0) vsource dc=800.0m type=dc
+V0 (net7 0) vsource dc=800.0m type=dc
+C0 (net4 net3) capacitor c=5f

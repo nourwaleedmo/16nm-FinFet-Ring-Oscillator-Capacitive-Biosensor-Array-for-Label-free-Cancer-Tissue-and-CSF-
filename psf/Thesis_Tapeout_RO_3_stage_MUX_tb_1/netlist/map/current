@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RO_3_stage_MUX_tb"
+  repList "calibre_rcc spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_tb/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_tb_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "Thesis_Tapeout/RO_3_stage_MUX/calibre_rcc" "RO_3_stage_MUX" )
+( "Thesis_Tapeout/RO_3_stage_MUX_tb/schematic" "RO_3_stage_MUX_tb" )
+ )
+( "RO_3_stage_MUX_tb" "ihnl/cds6/map" )
+( "RO_3_stage_MUX" "ihnl/cds14/map" )
+ )

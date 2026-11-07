@@ -1,0 +1,5 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: RO_3_stage_MUX
+// View name: calibre_rcc
+subckt RO_3_stage_MUX Cap1 Cap2 MUX_out RO_out S VDD VSS u_signal

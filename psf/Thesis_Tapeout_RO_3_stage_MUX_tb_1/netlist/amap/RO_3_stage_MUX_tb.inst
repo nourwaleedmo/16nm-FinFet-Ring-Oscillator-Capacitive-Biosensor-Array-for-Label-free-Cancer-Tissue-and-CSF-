@@ -1,0 +1,5 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "RO_3_stage_MUX"
+"V2n V1n V0n" "analogLib_vdc_spectre"
+"C0n" "analogLib_cap_spectre"

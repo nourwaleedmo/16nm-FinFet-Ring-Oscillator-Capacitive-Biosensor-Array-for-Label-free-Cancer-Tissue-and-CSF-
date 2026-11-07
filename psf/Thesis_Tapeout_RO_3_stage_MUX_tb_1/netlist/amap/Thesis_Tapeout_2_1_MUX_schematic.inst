@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"M3n M2n" "tsmcN16_pmos_rf_ulvt_nw_spectre"
+"M0n M1n" "tsmcN16_nmos_rf_ulvt_nw_spectre"
+"I0n" "invter_digital"
+"Av" ":1v"
+"Bv" ":2v"
+"Sv" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"
+"Zv" ":6v"

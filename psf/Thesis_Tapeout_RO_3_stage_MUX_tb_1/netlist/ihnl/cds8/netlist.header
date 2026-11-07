@@ -1,0 +1,5 @@
+
+// Library name: Thesis_3
+// Cell name: invter_digital
+// View name: schematic
+subckt invter_digital IN OUT VDD VDD_G VSS VSS_G

@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+Thesis_Tapeout/RO_3_stage_MUX_tb/schematic RO_3_stage_MUX_tb
+Thesis_Tapeout/RO_3_stage_MUX/calibre_rcc RO_3_stage_MUX
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+temperature temperature
+$endparam
