@@ -1,0 +1,8 @@
+// Generated for: spectre
+// Design Netlist Generated on: May 10 14:32:39 2026
+// Design library name: Thesis_Tapeout
+// Design cell name: RO_loaded_tb
+// Design view name: schematic
+simulator lang=spectre
+include "ade_e.scs"
+global 0

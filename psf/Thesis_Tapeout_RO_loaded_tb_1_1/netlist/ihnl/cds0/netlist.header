@@ -1,0 +1,6 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: Ring_Oscillator_3stages_slow_2
+// View name: calibre_rcc
+subckt Ring_Oscillator_3stages_slow_2 Cap1 Cap2 OUT Pre_Buffer VDD VSS \
+        post_buffer post_ff u_signal

@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RO_loaded_tb"
+  repList "calibre_rcc spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_loaded_tb/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_loaded_tb_1_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "Thesis_Tapeout/RO_loaded_tb/schematic" "RO_loaded_tb" )
+( "Thesis_Tapeout/Ring_Oscillator_3stages_slow_2/calibre_rcc" "Ring_Oscillator_3stages_slow_2" )
+ )
+( "RO_loaded_tb" "ihnl/cds1/map" )
+( "Ring_Oscillator_3stages_slow_2" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,10 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: RO_loaded_tb
+// View name: schematic
+I0 (net3 net2 OUT net4 net7 0 net6 net1 net5) \
+        Ring_Oscillator_3stages_slow_2
+C1 (OUT 0) capacitor c=200f
+C0 (net3 net2) capacitor c=100f
+V1 (net5 0) vsource dc=V type=dc
+V0 (net7 0) vsource dc=V type=dc

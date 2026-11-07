@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+Thesis_Tapeout/Ring_Oscillator_3stages_slow_2/calibre_rcc Ring_Oscillator_3stages_slow_2
+Thesis_Tapeout/RO_loaded_tb/schematic RO_loaded_tb
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+temperature temperature
+V V
+$endparam
