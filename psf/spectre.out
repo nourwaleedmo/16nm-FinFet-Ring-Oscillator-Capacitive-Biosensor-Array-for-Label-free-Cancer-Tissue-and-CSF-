@@ -5,47 +5,47 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: vlsi   Host: elc-cnd6   HostID: 7F0100   PID: 663200
-Memory  available: 8.0604 GB  physical: 33.4316 GB
+User: vlsi   Host: elc-cnd6   HostID: 7F0100   PID: 1212975
+Memory  available: 19.4984 GB  physical: 33.4316 GB
 Linux   : AlmaLinux release 8.10 (Cerulean Leopard)
 CPU Type: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [1074.1] (  8 ),  1 [4334.8] (  9 ),  2 [2383.7] ( 10 )
-                 3 [798.8] ( 11 ),  4 [800.8] ( 12 ),  5 [4440.8] ( 13 )
-                 6 [800.0] ( 14 ),  7 [4400.0] ( 15 )
+        0:       0 [800.6] (  8 ),  1 [800.9] (  9 ),  2 [800.9] ( 10 )
+                 3 [4483.9] ( 11 ),  4 [2102.2] ( 12 ),  5 [800.0] ( 13 )
+                 6 [785.4] ( 14 ),  7 [1023.6] ( 15 )
         
-System load averages (1min, 5min, 15min) : 2.9 %, 6.8 %, 14.6 %
+System load averages (1min, 5min, 15min) : 4.6 %, 4.0 %, 6.1 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on elc-cnd6 at 3:43:37 PM, Thur Jun 25, 2026 (process id: 663200).
-Current working directory: /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist
+Simulating `input.scs' on elc-cnd6 at 4:45:42 AM, Sun Mar 15, 2026 (process id: 1212975).
+Current working directory: /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist
 Command line:
      \
         /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/bin/spectre  \
         -64 input.scs +escchars +log ../psf/spectre.out -format psfxl  \
         -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
-        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D35FF519BC45A34CC401C204A773DB49B867DE4F9273C279D15D9175FF34980AB86E9474D33498799219A210E557F643E118F874D30EA879D118F874D3349879D118F874D3349813EC3A8056AB5EA50000363F  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D35CDD1A9445A35DEF69AD42E755F452C350C84F9250EC79D15D9175FF34980AB86E9474D33498799219A210E557F643E118F874D30EA879D118F874D3349879D118F874D33498106705AC69875D2E00003634  \
         -ahdllibdir  \
-        /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/./../../../../../../../Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/sharedData/CDS/ahdl/input.ahdlSimDB  \
         +logstatus
 
-Simulation Id: moiNrVGCptDgw3GZ
+Simulation Id: nGGaERal64sqOfdt
 Licensing Information:
-[15:43:37.418235] Configured Lic search path (21.01-s002): 5280@62.240.115.121:29000@62.240.115.121:2100@62.240.115.121
+[04:45:42.437147] Configured Lic search path (21.01-s002): 5280@196.135.205.221:29000@196.135.205.221:2100@196.135.205.221
 
 Licensing Information:
-[15:43:45.063347] Periodic Lic check successful
+[04:45:53.383441] Periodic Lic check successful
 
 Loading /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
 Loading /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
 Loading /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
 Loading /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
-Reading file:  /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist/input.scs
+Reading file:  /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist/input.scs
 Reading file:  /eda/cadence/2024-25/RHELx86/LIBERATE_23.16.074/tools.lnx86/spectre/etc/configs/spectre.cfg
-Reading file:  /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist/ade_e.scs
+Reading file:  /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist/ade_e.scs
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/toplevel.scs
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/crn16ffcll_1d8_sp_v1d3_2p1_age_1p1_usage.scs
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs
@@ -1268,28 +1268,28 @@ Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16F
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf_age_dir/RH_64/libTMImodel.so
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/crn16ffcll_1d8_sp_v1d3_2p1_age_1p1_rf_etmis_dir/RH_64/libTMImodel.so
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/res_metal.scs
-Time for NDB Parsing: CPU = 3.66141 s, elapsed = 11.3905 s.
-Time accumulated: CPU = 3.71878 s, elapsed = 11.3905 s.
-Peak resident memory used = 353 Mbytes.
+Time for NDB Parsing: CPU = 3.57941 s, elapsed = 15.4293 s.
+Time accumulated: CPU = 3.63338 s, elapsed = 15.4293 s.
+Peak resident memory used = 352 Mbytes.
 
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf_dir/RH_64/libTMImodel.so
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf_age_dir/RH_64/libTMImodel.so
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/crn16ffcll_1d8_sp_v1d3_2p1_age_1p1_rf_etmis_dir/RH_64/libTMImodel.so
 
+Warning from spectre in `npode_ulvt_mac', during circuit read-in.
+    WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 44155: The model `nch_ulvt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
+Warning from spectre in `ppode_ulvt_mac', during circuit read-in.
+    WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 44161: The model `pch_ulvt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
 Warning from spectre in `npode_svt_mac', during circuit read-in.
     WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 27491: The model `nch_svt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
 Warning from spectre in `ppode_svt_mac', during circuit read-in.
     WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 27497: The model `pch_svt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
-Warning from spectre in `ppode_ulvt_mac', during circuit read-in.
-    WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 44161: The model `pch_ulvt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
-Warning from spectre in `npode_ulvt_mac', during circuit read-in.
-    WARNING (SFE-2943): "/eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/tsmcN16/../models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf.scs" 44155: The model `nch_ulvt_mac' as the master of `xmain' instance are different types. In spice the instance with prefix x, should have master of type subckt, not model.
 Warning from spectre during circuit read-in.
-    WARNING (SFE-2649): Terminals of top-level instance `ciVSS_54', in file`input.scs', at line 0, are connected. Remove the instance and rerun the simulation.
-    WARNING (SFE-2649): Terminals of top-level instance `X131_X55_X27_X35_noxref', in file`input.scs', at line 742551, are connected. Remove the instance and rerun the simulation.
-    WARNING (SFE-2649): Terminals of top-level instance `X131_X55_X26_X35_noxref', in file`input.scs', at line 742573, are connected. Remove the instance and rerun the simulation.
-    WARNING (SFE-2649): Terminals of top-level instance `X131_X55_X25_X35_noxref', in file`input.scs', at line 742595, are connected. Remove the instance and rerun the simulation.
-    WARNING (SFE-2649): Terminals of top-level instance `X131_X55_X24_X35_noxref', in file`input.scs', at line 742617, are connected. Remove the instance and rerun the simulation.
+    WARNING (SFE-2649): Terminals of top-level instance `ciVSS_51', in file`input.scs', at line 0, are connected. Remove the instance and rerun the simulation.
+    WARNING (SFE-2649): Terminals of top-level instance `X32_X50_X27_X35_noxref', in file`input.scs', at line 735762, are connected. Remove the instance and rerun the simulation.
+    WARNING (SFE-2649): Terminals of top-level instance `X32_X50_X26_X35_noxref', in file`input.scs', at line 735784, are connected. Remove the instance and rerun the simulation.
+    WARNING (SFE-2649): Terminals of top-level instance `X32_X50_X25_X35_noxref', in file`input.scs', at line 735806, are connected. Remove the instance and rerun the simulation.
+    WARNING (SFE-2649): Terminals of top-level instance `X32_X50_X24_X35_noxref', in file`input.scs', at line 735828, are connected. Remove the instance and rerun the simulation.
         Further occurrences of this warning will be suppressed.
 
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/cln16ffcll_1d8_sp_v1d1_2p1_age_1p1_plugged_rf_dir
@@ -1297,36 +1297,36 @@ Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16F
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/crn16ffcll_1d8_sp_v1d3_2p1_age_1p1_rf_etmis_dir
 
 
-Time for Elaboration: CPU = 3.97647 s, elapsed = 3.98078 s.
-Time accumulated: CPU = 7.69533 s, elapsed = 15.3713 s.
-Peak resident memory used = 665 Mbytes.
+Time for Elaboration: CPU = 4.09506 s, elapsed = 4.09938 s.
+Time accumulated: CPU = 7.72852 s, elapsed = 19.5288 s.
+Peak resident memory used = 667 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
- Start ADE Session ID: moiNrVGCptDgw3GZ
+ Start ADE Session ID: nGGaERal64sqOfdt
 
 
 Warning from spectre during hierarchy flattening.
     WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
 
 ***********************************************
-  Total removed instances 19 ( dangling 0, terminals connected together 19)  
+  Total removed instances 14 ( dangling 0, terminals connected together 14)  
 
 Warning from spectre during hierarchy flattening.
-    WARNING (SPECTRE-8528): The I0.ciS9_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
-    WARNING (SPECTRE-8528): The I0.ciS13_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
-    WARNING (SPECTRE-8528): The I0.ciS5_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
-    WARNING (SPECTRE-8528): The I0.ciS1_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I0.ciS16_332 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I0.ciS8_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I0.ciS12_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
     WARNING (SPECTRE-8528): The I0.ciS15_332 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I0.ciS7_333 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
         Further occurrences of this warning will be suppressed.
 
 
   Total removed nodes 0 ( dangling nodes 0, floating nodes 0 )
 ***********************************************
-Time for EDB Visiting: CPU = 1.59898 s, elapsed = 1.6014 s.
-Time accumulated: CPU = 9.29438 s, elapsed = 16.9728 s.
+Time for EDB Visiting: CPU = 1.55145 s, elapsed = 1.55364 s.
+Time accumulated: CPU = 9.28004 s, elapsed = 21.0825 s.
 Peak resident memory used = 1.02 Gbytes.
 
 Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/models/tmi.cfg
@@ -1337,11 +1337,11 @@ Reading file:  /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16F
   *********************************************************
 
 Notice from spectre during topology check.
-    No DC path from node `I0.X129_X0_X0_M83_noxref_g' to ground, Gmin installed to provide path.
-    No DC path from node `I0.X129_X0_X0_X85_noxref_g' to ground, Gmin installed to provide path.
-    No DC path from node `I0.X129_X0_X0_X87_noxref_g' to ground, Gmin installed to provide path.
-    No DC path from node `I0.X129_X0_X1_X86_noxref_g' to ground, Gmin installed to provide path.
-    No DC path from node `I0.X129_X1_X0_M82_noxref_g' to ground, Gmin installed to provide path.
+    No DC path from node `I0.X28_X0_X0_X86_noxref_g' to ground, Gmin installed to provide path.
+    No DC path from node `I0.X28_X1_X0_X84_noxref_g' to ground, Gmin installed to provide path.
+    No DC path from node `I0.X28_X4_X0_X86_noxref_g' to ground, Gmin installed to provide path.
+    No DC path from node `I0.X28_X0_X0_X84_noxref_g' to ground, Gmin installed to provide path.
+    No DC path from node `I0.X28_X4_X0_X85_noxref_g' to ground, Gmin installed to provide path.
         Further occurrences of this notice will be suppressed.
 
 
@@ -1361,8 +1361,8 @@ Global user options:
            sensfile = ../psf/sens.output
      checklimitdest = psf
                save = allpub
-          tmioutput = /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist/input
-            degfile = /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist/input
+          tmioutput = /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist/input
+            degfile = /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counter_tb_3/maestro/results/maestro/ExplorerRun.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist/input
              reltol = 0.001
                tnom = 27
              scalem = 1
@@ -1371,10 +1371,10 @@ Global user options:
 Scoped user options:
 
 Circuit inventory:
-              nodes 65762
-          capacitor 296602
-           resistor 90770 
-         tmibsimcmg 9952  
+              nodes 64455
+          capacitor 294270
+           resistor 89479 
+         tmibsimcmg 9648  
             vsource 14    
 
 Analysis and control statement inventory:
@@ -1384,7 +1384,7 @@ Analysis and control statement inventory:
 Output statements:
              .probe 0     
            .measure 0     
-               save 1     
+               save 0     
 
 Design checks inventory:
           paramtest 1     
@@ -1392,21 +1392,20 @@ Design checks inventory:
 
 Notice from spectre during initial setup.
     Protected devices exist and are not included in the circuit inventory.
-    7 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
     APS enabled.
-    1113 notices suppressed.
-    36 warnings suppressed.
+    1079 notices suppressed.
+    29 warnings suppressed.
 
 Licensing Information:
-[15:44:26.246555] Periodic Lic check successful
+[04:46:33.071266] Periodic Lic check successful
 
 
 Notice from spectre.
     Multithreading enabled: 8 threads in the system with 16 available processors.
 
-Time for parsing: CPU = 31.7617 s, elapsed = 32.4927 s.
-Time accumulated: CPU = 41.0561 s, elapsed = 49.4656 s.
-Peak resident memory used = 1.38 Gbytes.
+Time for parsing: CPU = 29.0348 s, elapsed = 29.97 s.
+Time accumulated: CPU = 38.3149 s, elapsed = 51.0526 s.
+Peak resident memory used = 1.37 Gbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -1414,32 +1413,28 @@ Pre-Simulation Summary
    -   (APS) Multi-threading. The recommended number of threads is 16, consider adding +mt=16 on command line.
 ~~~~~~~~~~~~~~~~~~~~~~
 
-************************************************
-Transient Analysis `tran': time = (0 s -> 10 ns)
-************************************************
-
-Notice from spectre during IC analysis, during transient analysis `tran'.
-    There are 1 IC nodes defined.
-
+***********************************************
+Transient Analysis `tran': time = (0 s -> 1 us)
+***********************************************
 Finding DC approximate solution failed with try_fast_op=yes, continue running with try_fast_op=no.
 Trying `homotopy = gmin' for initial conditions.
 Trying `homotopy = source' for initial conditions.
-Trying `homotopy = dptran' for initial conditions.
 
 Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.X32_X50_X21_X31_noxref_s) = -55.5378 uV
+        Use the `gmin_check' option to eliminate or expand this report.
     Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
-    Initial condition computed for node pre_buffer_1 is in error by 1.48201 mV.
-        Decrease `rforce' to reduce error in computed initial conditions.  However, setting rforce too small may result in convergence difficulties or in the matrix becoming singular.
 
-DC simulation time: CPU = 73.8676 s, elapsed = 13.0787 s.
+DC simulation time: CPU = 60.5225 s, elapsed = 10.6743 s.
 
 Opening the PSFXL file ../psf/tran.tran.tran ...
 Important parameter values:
     start = 0 s
     outputstart = 0 s
-    stop = 10 ns
-    step = 10 ps
-    maxstep = 200 ps
+    stop = 1 us
+    step = 1 ns
+    maxstep = 20 ns
     ic = all
     useprevic = no
     skipdc = no
@@ -1459,145 +1454,147 @@ Important parameter values:
 
 
 Output and IC/nodeset summary:
-                 save   7       (current)
-                 save   65755   (voltage)
-                 ic     1       
-                 save   7       (unitless)
+                 save   14      (current)
+                 save   64455   (voltage)
 
-    tran: time = 160.1 ps     (1.6 %), step = 563.2 fs    (5.63 m%)
-    tran: time = 256 ps      (2.56 %), step = 6.479 ps    (64.8 m%)
-    tran: time = 387.7 ps    (3.88 %), step = 699.2 fs    (6.99 m%)
-    tran: time = 601.6 ps    (6.02 %), step = 1.529 ps    (15.3 m%)
-    tran: time = 740.3 ps     (7.4 %), step = 1.961 ps    (19.6 m%)
-    tran: time = 752.3 ps    (7.52 %), step = 2.841 ps    (28.4 m%)
-    tran: time = 921.1 ps    (9.21 %), step = 2.068 ps    (20.7 m%)
-    tran: time = 1.052 ns    (10.5 %), step = 1.596 ps      (16 m%)
-    tran: time = 1.254 ns    (12.5 %), step = 5.356 ps    (53.6 m%)
-    tran: time = 1.386 ns    (13.9 %), step = 2.05 ps     (20.5 m%)
-    tran: time = 1.591 ns    (15.9 %), step = 8.342 ps    (83.4 m%)
-    tran: time = 1.722 ns    (17.2 %), step = 3.268 ps    (32.7 m%)
-    tran: time = 1.751 ns    (17.5 %), step = 6.242 ps    (62.4 m%)
-    tran: time = 1.964 ns    (19.6 %), step = 2.141 ps    (21.4 m%)
-    tran: time = 2.105 ns      (21 %), step = 791.7 fs    (7.92 m%)
-    tran: time = 2.253 ns    (22.5 %), step = 6.953 ps    (69.5 m%)
-    tran: time = 2.377 ns    (23.8 %), step = 3.035 ps    (30.3 m%)
-    tran: time = 2.591 ns    (25.9 %), step = 7.291 ps    (72.9 m%)
-    tran: time = 2.669 ns    (26.7 %), step = 4.251 ps    (42.5 m%)
-    tran: time = 2.75 ns     (27.5 %), step = 1.038 ps    (10.4 m%)
-    tran: time = 2.963 ns    (29.6 %), step = 2.69 ps     (26.9 m%)
-    tran: time = 3.088 ns    (30.9 %), step = 8.117 ps    (81.2 m%)
-    tran: time = 3.257 ns    (32.6 %), step = 7.289 ps    (72.9 m%)
-    tran: time = 3.4 ns        (34 %), step = 2.965 ps    (29.6 m%)
-    tran: time = 3.493 ns    (34.9 %), step = 3.456 ps    (34.6 m%)
-    tran: time = 3.664 ns    (36.6 %), step = 3.239 ps    (32.4 m%)
-    tran: time = 3.753 ns    (37.5 %), step = 8.591 ps    (85.9 m%)
-    tran: time = 3.967 ns    (39.7 %), step = 1.607 ps    (16.1 m%)
-    tran: time = 4.094 ns    (40.9 %), step = 3.313 ps    (33.1 m%)
-    tran: time = 4.254 ns    (42.5 %), step = 5.43 ps     (54.3 m%)
-    tran: time = 4.345 ns    (43.4 %), step = 2.513 ps    (25.1 m%)
-    tran: time = 4.552 ns    (45.5 %), step = 17.77 ps     (178 m%)
-    tran: time = 4.69 ns     (46.9 %), step = 1.773 ps    (17.7 m%)
-    tran: time = 4.751 ns    (47.5 %), step = 2.708 ps    (27.1 m%)
-    tran: time = 4.931 ns    (49.3 %), step = 6.95 ps     (69.5 m%)
-    tran: time = 5.051 ns    (50.5 %), step = 1.246 ps    (12.5 m%)
-    tran: time = 5.174 ns    (51.7 %), step = 6.451 ps    (64.5 m%)
-    tran: time = 5.252 ns    (52.5 %), step = 6.154 ps    (61.5 m%)
-    tran: time = 5.38 ns     (53.8 %), step = 2.411 ps    (24.1 m%)
-    tran: time = 5.568 ns    (55.7 %), step = 16.34 ps     (163 m%)
-    tran: time = 5.709 ns    (57.1 %), step = 2.088 ps    (20.9 m%)
-    tran: time = 5.752 ns    (57.5 %), step = 2.369 ps    (23.7 m%)
-    tran: time = 5.961 ns    (59.6 %), step = 1.885 ps    (18.8 m%)
-    tran: time = 6.05 ns     (60.5 %), step = 4.712 ps    (47.1 m%)
-    tran: time = 6.241 ns    (62.4 %), step = 5.232 ps    (52.3 m%)
-    tran: time = 6.252 ns    (62.5 %), step = 2.856 ps    (28.6 m%)
-    tran: time = 6.386 ns    (63.9 %), step = 789.1 fs    (7.89 m%)
-    tran: time = 6.6 ns        (66 %), step = 5.356 ps    (53.6 m%)
-    tran: time = 6.724 ns    (67.2 %), step = 1.251 ps    (12.5 m%)
-    tran: time = 6.753 ns    (67.5 %), step = 2.898 ps      (29 m%)
-    tran: time = 6.909 ns    (69.1 %), step = 2.178 ps    (21.8 m%)
-    tran: time = 7.045 ns    (70.4 %), step = 2.031 ps    (20.3 m%)
-    tran: time = 7.25 ns     (72.5 %), step = 7.232 ps    (72.3 m%)
-    tran: time = 7.398 ns      (74 %), step = 3.74 ps     (37.4 m%)
-    tran: time = 7.574 ns    (75.7 %), step = 1.946 ps    (19.5 m%)
-    tran: time = 7.708 ns    (77.1 %), step = 1.451 ps    (14.5 m%)
-    tran: time = 7.756 ns    (77.6 %), step = 7.325 ps    (73.3 m%)
-    tran: time = 7.956 ns    (79.6 %), step = 1.633 ps    (16.3 m%)
-    tran: time = 8.076 ns    (80.8 %), step = 2.005 ps    (20.1 m%)
-    tran: time = 8.255 ns    (82.5 %), step = 8.206 ps    (82.1 m%)
-    tran: time = 8.384 ns    (83.8 %), step = 2.535 ps    (25.3 m%)
-    tran: time = 8.596 ns      (86 %), step = 5.385 ps    (53.8 m%)
-    tran: time = 8.663 ns    (86.6 %), step = 2.749 ps    (27.5 m%)
-    tran: time = 8.75 ns     (87.5 %), step = 3.356 ps    (33.6 m%)
-    tran: time = 8.959 ns    (89.6 %), step = 3.097 ps      (31 m%)
-    tran: time = 9.071 ns    (90.7 %), step = 6.164 ps    (61.6 m%)
-    tran: time = 9.252 ns    (92.5 %), step = 4.909 ps    (49.1 m%)
-    tran: time = 9.38 ns     (93.8 %), step = 4.591 ps    (45.9 m%)
-    tran: time = 9.456 ns    (94.6 %), step = 7.354 ps    (73.5 m%)
-    tran: time = 9.634 ns    (96.3 %), step = 3.596 ps      (36 m%)
-    tran: time = 9.752 ns    (97.5 %), step = 1.781 ps    (17.8 m%)
-    tran: time = 9.963 ns    (99.6 %), step = 2.509 ps    (25.1 m%)
-Number of accepted tran steps =             2830
+    tran: time = 10.18 ns    (1.02 %), step = 5.721 ps     (572 u%)
+    tran: time = 20.02 ns       (2 %), step = 2.812 ps     (281 u%)
+    tran: time = 20.12 ns    (2.01 %), step = 784.5 fs    (78.4 u%)
+    tran: time = 20.28 ns    (2.03 %), step = 1.017 ps     (102 u%)
+    tran: time = 20.56 ns    (2.06 %), step = 7.972 ps     (797 u%)
+    tran: time = 20.64 ns    (2.06 %), step = 2.056 ps     (206 u%)
+    tran: time = 20.77 ns    (2.08 %), step = 2.288 ps     (229 u%)
+    tran: time = 21 ns        (2.1 %), step = 1.639 ps     (164 u%)
+    tran: time = 21.14 ns    (2.11 %), step = 819.1 fs    (81.9 u%)
+    tran: time = 21.41 ns    (2.14 %), step = 3.942 ps     (394 u%)
+    tran: time = 21.53 ns    (2.15 %), step = 2.052 ps     (205 u%)
+    tran: time = 21.75 ns    (2.18 %), step = 6.136 ps     (614 u%)
+    tran: time = 21.9 ns     (2.19 %), step = 994.1 fs    (99.4 u%)
+    tran: time = 22.14 ns    (2.21 %), step = 1.985 ps     (198 u%)
+    tran: time = 22.28 ns    (2.23 %), step = 4.285 ps     (429 u%)
+    tran: time = 22.51 ns    (2.25 %), step = 10.75 ps    (1.07 m%)
+    tran: time = 22.59 ns    (2.26 %), step = 2.006 ps     (201 u%)
+    tran: time = 22.71 ns    (2.27 %), step = 634.2 fs    (63.4 u%)
+    tran: time = 22.98 ns     (2.3 %), step = 3.75 ps      (375 u%)
+    tran: time = 23.12 ns    (2.31 %), step = 4.88 ps      (488 u%)
+    tran: time = 23.34 ns    (2.33 %), step = 3.719 ps     (372 u%)
+    tran: time = 23.43 ns    (2.34 %), step = 1.774 ps     (177 u%)
+    tran: time = 23.69 ns    (2.37 %), step = 1.782 ps     (178 u%)
+    tran: time = 23.82 ns    (2.38 %), step = 1.67 ps      (167 u%)
+    tran: time = 24.05 ns    (2.41 %), step = 6.443 ps     (644 u%)
+    tran: time = 24.18 ns    (2.42 %), step = 3.4 ps       (340 u%)
+    tran: time = 24.44 ns    (2.44 %), step = 2.339 ps     (234 u%)
+    tran: time = 24.52 ns    (2.45 %), step = 1.553 ps     (155 u%)
+    tran: time = 24.64 ns    (2.46 %), step = 2.646 ps     (265 u%)
+    tran: time = 24.84 ns    (2.48 %), step = 1.963 ps     (196 u%)
+    tran: time = 24.98 ns     (2.5 %), step = 863.6 fs    (86.4 u%)
+    tran: time = 25 ns        (2.5 %), step = 2.613 ps     (261 u%)
+    tran: time = 25.27 ns    (2.53 %), step = 1.905 ps     (190 u%)
+    tran: time = 25.36 ns    (2.54 %), step = 2.798 ps     (280 u%)
+    tran: time = 25.59 ns    (2.56 %), step = 7.367 ps     (737 u%)
+    tran: time = 25.72 ns    (2.57 %), step = 2.997 ps     (300 u%)
+    tran: time = 25.98 ns     (2.6 %), step = 3.136 ps     (314 u%)
+    tran: time = 26.11 ns    (2.61 %), step = 3.519 ps     (352 u%)
+    tran: time = 26.32 ns    (2.63 %), step = 26.39 ps    (2.64 m%)
+    tran: time = 26.41 ns    (2.64 %), step = 3.862 ps     (386 u%)
+    tran: time = 26.52 ns    (2.65 %), step = 632.7 fs    (63.3 u%)
+    tran: time = 26.79 ns    (2.68 %), step = 3.761 ps     (376 u%)
+    tran: time = 26.93 ns    (2.69 %), step = 1.705 ps     (171 u%)
+    tran: time = 27.14 ns    (2.71 %), step = 1.942 ps     (194 u%)
+    tran: time = 27.23 ns    (2.72 %), step = 3.181 ps     (318 u%)
+    tran: time = 27.47 ns    (2.75 %), step = 5.141 ps     (514 u%)
+    tran: time = 27.63 ns    (2.76 %), step = 3.516 ps     (352 u%)
+    tran: time = 27.77 ns    (2.78 %), step = 3.56 ps      (356 u%)
+    tran: time = 27.97 ns     (2.8 %), step = 4.041 ps     (404 u%)
+    tran: time = 28.07 ns    (2.81 %), step = 1.058 ps     (106 u%)
+    tran: time = 28.28 ns    (2.83 %), step = 2.188 ps     (219 u%)
+    tran: time = 28.42 ns    (2.84 %), step = 1.978 ps     (198 u%)
+    tran: time = 28.65 ns    (2.86 %), step = 11.5 ps     (1.15 m%)
+    tran: time = 28.78 ns    (2.88 %), step = 472 fs      (47.2 u%)
+    tran: time = 29.03 ns     (2.9 %), step = 6.967 ps     (697 u%)
+    tran: time = 29.13 ns    (2.91 %), step = 2.263 ps     (226 u%)
+    tran: time = 29.27 ns    (2.93 %), step = 5.117 ps     (512 u%)
+    tran: time = 29.47 ns    (2.95 %), step = 3.965 ps     (397 u%)
+    tran: time = 29.59 ns    (2.96 %), step = 755.4 fs    (75.5 u%)
+    tran: time = 29.87 ns    (2.99 %), step = 5.436 ps     (544 u%)
+    tran: time = 30.01 ns       (3 %), step = 3.362 ps     (336 u%)
+    tran: time = 30.18 ns    (3.02 %), step = 8.747 ps     (875 u%)
+    tran: time = 30.32 ns    (3.03 %), step = 2.412 ps     (241 u%)
+    tran: time = 30.59 ns    (3.06 %), step = 2.507 ps     (251 u%)
+    tran: time = 30.72 ns    (3.07 %), step = 2.292 ps     (229 u%)
+    tran: time = 30.96 ns     (3.1 %), step = 1.328 ps     (133 u%)
+    tran: time = 31.07 ns    (3.11 %), step = 3.419 ps     (342 u%)
+    tran: time = 31.33 ns    (3.13 %), step = 3.473 ps     (347 u%)
+    tran: time = 31.46 ns    (3.15 %), step = 2.536 ps     (254 u%)
+    tran: time = 31.61 ns    (3.16 %), step = 4.215 ps     (422 u%)
+    tran: time = 31.8 ns     (3.18 %), step = 3.483 ps     (348 u%)
+    tran: time = 32.05 ns     (3.2 %), step = 8.259 ps     (826 u%)
+    tran: time = 32.15 ns    (3.21 %), step = 4.184 ps     (418 u%)
+    tran: time = 32.26 ns    (3.23 %), step = 1.078 ps     (108 u%)
+    tran: time = 32.49 ns    (3.25 %), step = 1.563 ps     (156 u%)
+    tran: time = 32.62 ns    (3.26 %), step = 3.366 ps     (337 u%)
+    tran: time = 32.88 ns    (3.29 %), step = 1.65 ps      (165 u%)
+    tran: time = 32.99 ns     (3.3 %), step = 3.528 ps     (353 u%)
+    tran: time = 33.13 ns    (3.31 %), step = 725.4 fs    (72.5 u%)
+    tran: time = 33.35 ns    (3.34 %), step = 1.061 ps     (106 u%)
+    tran: time = 33.58 ns    (3.36 %), step = 8.286 ps     (829 u%)
+    tran: time = 33.74 ns    (3.37 %), step = 3.021 ps     (302 u%)
+    tran: time = 33.9 ns     (3.39 %), step = 3.338 ps     (334 u%)
+    tran: time = 34.03 ns     (3.4 %), step = 1.896 ps     (190 u%)
+    tran: time = 34.18 ns    (3.42 %), step = 836.9 fs    (83.7 u%)
+    tran: time = 34.44 ns    (3.44 %), step = 4.095 ps     (410 u%)
+    tran: time = 34.57 ns    (3.46 %), step = 4.969 ps     (497 u%)
+    tran: time = 34.8 ns     (3.48 %), step = 1.936 ps     (194 u%)
+    tran: time = 34.91 ns    (3.49 %), step = 3.391 ps     (339 u%)
+    tran: time = 35.17 ns    (3.52 %), step = 7.244 ps     (724 u%)
+    tran: time = 35.3 ns     (3.53 %), step = 1.583 ps     (158 u%)
+    tran: time = 35.5 ns     (3.55 %), step = 20.24 ps    (2.02 m%)
+    tran: time = 35.66 ns    (3.57 %), step = 1.198 ps     (120 u%)
+    tran: time = 35.89 ns    (3.59 %), step = 8.214 ps     (821 u%)
+    tran: time = 35.99 ns     (3.6 %), step = 2.431 ps     (243 u%)
+    tran: time = 36.12 ns    (3.61 %), step = 1.508 ps     (151 u%)
+    tran: time = 36.34 ns    (3.63 %), step = 1.758 ps     (176 u%)
+    tran: time = 36.48 ns    (3.65 %), step = 2.645 ps     (265 u%)
+    tran: time = 36.73 ns    (3.67 %), step = 2.412 ps     (241 u%)
+    tran: time = 36.83 ns    (3.68 %), step = 3.531 ps     (353 u%)
+    tran: time = 36.96 ns     (3.7 %), step = 1.443 ps     (144 u%)
+    tran: time = 37.15 ns    (3.72 %), step = 3.286 ps     (329 u%)
+    tran: time = 37.28 ns    (3.73 %), step = 1.063 ps     (106 u%)
+    tran: time = 37.56 ns    (3.76 %), step = 2.461 ps     (246 u%)
+    tran: time = 37.7 ns     (3.77 %), step = 4.977 ps     (498 u%)
+    tran: time = 37.86 ns    (3.79 %), step = 951.3 fs    (95.1 u%)
 
-Maximum value achieved for any signal of each quantity: 
-V: V(I0.XI4_XM0.gi) = 1.098 V
-I: I(V3:p) = 6.485 mA
-If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+Spectre received SIGTERM sent from PID: 1212924 with UID: 1001.
+Process hierarchy of PID 1212924 :
+    PID        COMMAND
+    1212924    /eda/cadence/2024-25/RHELx86/IC_23.10.070/tools.lnx86/dfII/bin/64bit/spectreMonitor --davinciService DaVinciService_1088635_1773521383 --axlsession fnxSession3 -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D158AF973FC06BC4D66A08E459830DF235CD38F1FFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D0F55924BE152D5FB00001E51 -beanhost elc-cnd6 -beanport 11950 -beanLogFile /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/logs_vlsi/logs0/amps_Job9.log -beanbinlog  --domain 0 --interactive yes --netlistOpt no --useMultiPointEvaluation yes --exprEvalShowJobStderr yes --evalSimParallel no --maxSims 0 --historyName ExplorerRun.0 --historyUUID  --exprEvaluator vds --mcMapping mc1.mapping --checkLogStatusInterval 0 --checkSimulatorLogTimeout 1200 --exprEvalMaxTries 3 --maxNFSSyncWait 60 -adeBrokerAddress elc-cnd6:45693 --statdbType h5v2 --fromADE true --virtuosoBinary virtuoso --guiDisplay elc-cnd6:0 --globalStatus 60 --evaluateMultiMC yes --evalOnSimFail SkipFailedAnalyses --numRetriesOnError 1 --fenixMode explorer --lingertimeout 300 -ahdlLockTimeout 60 --sdbLib Thesis_Tapeout --sdbCell RO_3_stage_MUX_Counter_tb_3 --sdbView maestro --heartBeatFileDir /dev/shm --id 9 --uuid cf20eeb2-df9b-4fa5-80d4-4afec8a51011 --log /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/logs_vlsi/logs0/Job9.log 
+    1212921    /bin/sh /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/.tmp_vlsi/.cmddir0/swiftJob9 
+    1212920    /eda/cadence/2024-25/RHELx86/IC_23.10.070/tools/bin/64bit/cdsServIpc -c 36953 -n 171 -r 10 -x /eda/cadence/FFC_UNIV/pdk/TN16CRSP012W1_1_1_1P1A/iPDK_GEN2_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628_all/iPDK_CRN16FFCLL_v1.1_1p1a_20190628/.tmp_vlsi/.cmddir0/swiftJob9 
+    1088635    /eda/cadence/2024-25/RHELx86/IC_23.10.070/tools/dfII/bin/64bit/virtuoso -45 
+    493730     bash 
+    493723     /usr/libexec/gnome-terminal-server 
+    1776       /usr/lib/systemd/systemd --user 
+About to end simulation, please wait for a moment...
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Post-Transient Simulation Summary
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   -   To further speed up simulation, consider
-          add ++aps on command line
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Error found by spectre at time = 37.9158 ns during transient analysis `tran'.
+    ERROR (SPECTRE-25): The simulation is stopped either by the user or the farm.
 
 
-During simulation, the CPU load for active processors is :
-         0 (16.7 %)      1 (23.7 %)      2 (30.7 %)      3 (25.3 %)
-         4 (37.8 %)      5 (16.8 %)      6 (41.6 %)      7 (33.5 %)
-         8 (51.9 %)      9 (43.4 %)     10 (35.2 %)     11 (40.9 %)
-        12 (29.8 %)     13 (51.0 %)     14 (25.7 %)     15 (62.6 %)
-        Total: 566.8%
-Initial condition solution time: CPU = 73.868 s, elapsed = 13.0789 s.
-Intrinsic tran analysis time:    CPU = 654.621 s, elapsed = 79.7211 s.
-Total time required for tran analysis `tran': CPU = 728.771 s (12m  8.8s), elapsed = 92.9876 s (1m  33.0s), util. = 784%.
-Time accumulated: CPU = 774.497 s (12m  54.5s), elapsed = 143.085 s (2m  23.1s).
-Peak resident memory used = 2.07 Gbytes.
-
-finalTimeOP: writing operating point information to rawfile.
-
-Opening the PSF file ../psf/finalTimeOP.info ...
-modelParameter: writing model parameter values to rawfile.
-
-Opening the PSF file ../psf/modelParameter.info ...
-element: writing instance parameter values to rawfile.
-
-Opening the PSF file ../psf/element.info ...
-outputParameter: writing output parameter values to rawfile.
-
-Opening the PSF file ../psf/outputParameter.info ...
-designParamVals: writing netlist parameters to rawfile.
-
-Opening the PSFASCII file ../psf/designParamVals.info ...
-primitives: writing primitives to rawfile.
-
-Opening the PSFASCII file ../psf/primitives.info.primitives ...
-subckts: writing subcircuits to rawfile.
-
-Opening the PSFASCII file ../psf/subckts.info.subckts ...
-TMI results xml file begins to generate at Thu Jun 25 15:46:04 2026
-
-TMI results xml file /eda/Thesis_Final_Simulations/Thesis_Tapeout/RO_3_stage_MUX_Counuter_tb/maestro/results/maestro/Interactive.0/1/Thesis_Tapeout_RO_3_stage_MUX_Counuter_tb_1/netlist/input.tmideg0.xml generated at Thu Jun 25 15:46:04 2026
-
+Saving the states into file at t=37.9158 ns...
+State File: ./input.scs.tran.srf.
 Licensing Information:
 Lic Summary:
-[15:46:05.277184] Cdslmd servers:5280@62.240.115.121:29000@62.240.115.121:2100@62.240.115.121
-[15:46:05.277200] Feature usage summary:
-[15:46:05.277201] Virtuoso_Multi_mode_Simulation
+[04:48:56.022138] Cdslmd servers:5280@196.135.205.221:29000@196.135.205.221:2100@196.135.205.221
+[04:48:56.022160] Feature usage summary:
+[04:48:56.022161] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (3:46:05 PM, Thur Jun 25, 2026):
-Time used: CPU = 811 s (13m  31.5s), elapsed = 148 s (2m  28.0s), util. = 548%.
-Time spent in licensing: elapsed = 8.53 s, percentage of total = 5.76%.
-Peak memory used = 2.08 Gbytes.
-Simulation started at: 3:43:37 PM, Thur Jun 25, 2026, ended at: 3:46:05 PM, Thur Jun 25, 2026, with elapsed time (wall clock): 148 s (2m  28.0s).
-spectre completes with 0 errors, 15 warnings, and 16 notices.
+Message from ADE: Simulation stopped because you selected the 'Stop Simulation' command in ADE.P^õ‘
+
+Aggregate audit (4:48:56 AM, Sun Mar 15, 2026):
+Time used: CPU = 1.19 ks (19m  48.0s), elapsed = 195 s (3m  14.8s), util. = 610%.
+Time spent in licensing: elapsed = 13.2 s, percentage of total = 6.76%.
+Peak memory used = 2.09 Gbytes.
+Simulation started at: 4:45:42 AM, Sun Mar 15, 2026, ended at: 4:48:56 AM, Sun Mar 15, 2026, with elapsed time (wall clock): 195 s (3m  14.8s).
+spectre completes with 1 error, 15 warnings, and 14 notices.
+spectre terminated prematurely due to fatal error.

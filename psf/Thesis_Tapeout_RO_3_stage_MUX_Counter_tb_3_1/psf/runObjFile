@@ -1,0 +1,41 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Mar 15 04:48:46 2026"
+"date" "Mar 15 04:48:46 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "ExplorerRun.0"
+"#maeTestName" "Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("V")
+)
+"V=0.8" "runObject" (
+(
+"../../../1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/psf/logFile"
+"../../../1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/psf/artistLogFile"
+"../../../1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1/netlist"
+"dataDir" "../../../1/Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1"
+ "V" 8.000000e-01
+)
+
+END
