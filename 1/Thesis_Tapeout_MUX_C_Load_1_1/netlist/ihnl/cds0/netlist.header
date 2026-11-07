@@ -1,0 +1,5 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: 2_1_MUX
+// View name: calibre_rcc
+subckt Thesis_Tapeout_2_1_MUX_calibre_rcc A B S VDD VSS Z

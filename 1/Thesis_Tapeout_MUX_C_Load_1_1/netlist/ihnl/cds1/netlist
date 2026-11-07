@@ -1,0 +1,9 @@
+
+// Library name: Thesis_Tapeout
+// Cell name: MUX_C_Load
+// View name: schematic
+I1 (net3 net2 net1 net6 0 net4) Thesis_Tapeout_2_1_MUX_calibre_rcc
+V3 (net2 0) vsource dc=0 type=dc
+V1 (net1 0) vsource dc=0 type=dc
+V0 (net6 0) vsource dc=800.0m type=dc
+V2 (net3 0) vsource mag=800.0m type=sine freq=10G

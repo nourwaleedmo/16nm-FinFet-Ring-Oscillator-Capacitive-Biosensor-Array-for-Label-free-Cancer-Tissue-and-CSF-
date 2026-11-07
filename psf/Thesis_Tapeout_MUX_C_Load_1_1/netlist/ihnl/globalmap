@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+Thesis_Tapeout/MUX_C_Load/schematic MUX_C_Load
+Thesis_Tapeout/2_1_MUX/calibre_rcc Thesis_Tapeout_2_1_MUX_calibre_rcc
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+temperature temperature
+$endparam
