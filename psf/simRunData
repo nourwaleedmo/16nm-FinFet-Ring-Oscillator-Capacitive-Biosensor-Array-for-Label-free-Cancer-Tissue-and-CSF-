@@ -1,10 +1,10 @@
 HEADER
 "PSFversion" "1.00"
-"design" "(\"Thesis_Tapeout\" \"RO_3_stage_MUX_Counter_tb_3\" \"schematic\" \"\")"
+"design" "(\"Thesis_Tapeout\" \"MUX_C_Load\" \"schematic\" \"\")"
 "simulator" "spectre"
 "temperature" "27"
 "host" ""
-"date" "Mar 15 04:45:39 2026"
+"date" "Jan 20 11:16:34 2026"
 "title" ""
 "analysisList" "()"
 END

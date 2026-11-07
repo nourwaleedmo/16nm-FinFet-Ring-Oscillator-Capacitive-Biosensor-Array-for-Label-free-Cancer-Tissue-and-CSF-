@@ -1,11 +1,11 @@
 HEADER
 "PSFversion" "1.00"
 "Run Generator" "drlRun rev. 1.0"
-"Run Time Stamp" "Mar 15 04:45:39 2026"
+"Run Time Stamp" "Jan 20 11:16:34 2026"
 "simulator" "spectre"
-"date" "Mar 15 04:45:39 2026"
+"date" "Jan 20 11:16:34 2026"
  "externalSweepVariableCount" 0
-"#maeTestName" "Thesis_Tapeout_RO_3_stage_MUX_Counter_tb_3_1"
+"#maeTestName" "Thesis_Tapeout_MUX_C_Load_1_1"
 "#maeHistoryName" "ExplorerRun.0"
 "#maeCorner" "nom"
  "#maeDesignPoint" 1

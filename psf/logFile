@@ -1,12 +1,12 @@
 HEADER
 "PSFversion" "1.00"
 "Log Generator" "drlLog rev. 1.0"
-"Log Time Stamp" "Sun Mar 15 04:46:32 2026"
+"Log Time Stamp" "Tue Jan 20 11:17:06 2026"
 "psfversion" "1.4.0"
 "simulator" "spectre"
 "version" "21.1.0.854.isr22"
-"date" "4:46:32 AM, Sun Mar 15, 2026"
-"design" "// Point Netlist Generated on: Mar 15 04:45:39 2026"
+"date" "11:17:06 AM, Tue Jan 20, 2026"
+"design" "// Point Netlist Generated on: Jan 20 11:16:34 2026"
 "signalNameType" "spectre"
 "simMode" "APS"
 "measdgt" 0
@@ -22,15 +22,75 @@ TYPE
 "description" STRING *
 )
 VALUE
-"tran-tran" "analysisInst" (
-"tran"
-"tran.tran.tran"
+"ac-ac" "analysisInst" (
+"ac"
+"ac.ac"
 "PSF"
 ""
-("time")
-"Transient Analysis `tran': time = (0 s -> 1 us)"
+("freq")
+"AC Analysis `ac': freq = (1 GHz -> 10 GHz)"
 ) PROP(
 "data_type" "swept_scalar"
 )
 
+"modelParameter-info" "analysisInst" (
+"info"
+"modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"element-info" "analysisInst" (
+"info"
+"element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"outputParameter-info" "analysisInst" (
+"info"
+"outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"designParamVals-info" "analysisInst" (
+"info"
+"designParamVals.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"primitives.info.primitives"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"subckts.info.subckts"
+"PSF"
+""
+()
+"Circuit Information"
+)
 END
